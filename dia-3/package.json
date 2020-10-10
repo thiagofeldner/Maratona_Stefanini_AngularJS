@@ -23,5 +23,13 @@
     "grunt-contrib-uglify": "^5.0.0",
     "grunt-contrib-watch": "^1.1.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "angular-mocks": "^1.8.1",
+    "grunt-karma": "^4.0.0",
+    "jasmine": "^3.6.1",
+    "karma": "^5.2.3",
+    "karma-coverage": "^2.0.3",
+    "karma-jasmine": "^4.0.1",
+    "karma-phantomjs-launcher": "^1.0.4"
+  }
 }

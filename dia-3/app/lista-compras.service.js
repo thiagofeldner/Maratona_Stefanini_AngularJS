@@ -26,9 +26,7 @@
                 .then(function (response) {
                     return response.data;
                 })
-                .catch(function (error) {
-                    return error;
-                });
+                .catch(helper.sendError);
         }
 
         function logar(_params) {

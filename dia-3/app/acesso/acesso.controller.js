@@ -32,7 +32,7 @@
                         helper.addMsg(_resp.msg, 'danger');
                     } else {
                         helper.setRootScope('userLogged', _resp.userLogged);
-                        // Posso usar simplismente o 'helper.pathcd d' porque
+                        // Posso usar simplismente o 'helper.path' porque
                         // não preciso verificar se ele está logado, pois esse 
                         // é retorno de sucesso do login, mas quando precisar
                         // checar como nas outras rotas usamos o 'helper.go'

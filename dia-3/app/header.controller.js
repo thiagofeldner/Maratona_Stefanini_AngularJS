@@ -49,7 +49,7 @@
         }
 
         function logout() {
-            helper.setRootScope('userLogged', null);
+            helper.setRootScope('userLogged', undefined);
             helper.path('/login');
         }
 
